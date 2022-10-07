@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
              getInverse = getInverse)
 }
 
-## This function computes and the inverse and if already computed, delivers the cached inverse matrix. Mostly changing variables also
+## This function computes the inverse and if already computed, delivers the cached inverse matrix. Mostly changing variables like above
 
 cacheSolve <- function(x, ...) {
         invertedObj <- x$getInverse()
